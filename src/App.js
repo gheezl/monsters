@@ -17,14 +17,10 @@ class App extends Component {
       .then(users => this.setState({ monsters: users }))
   }
 
-  displayState() {
-    console.log(this.state.monsters)
-  }
-
   render() {
     return (
       <Fragment >
-        <div onClick={this.displayState()}>
+        <div>
           <CardList monsters={this.state.monsters} />
         </div>
       </Fragment>

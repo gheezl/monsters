@@ -1,12 +1,13 @@
 import React, { Fragment } from "react"
+import "./CardList.css"
 import Card from "../Card/Card.js"
 
 const CardList = ({ monsters }) => {
     return (
         <Fragment>
-            <div>
+            <div className="cardList">
                 {monsters.map(monster => (
-                    <Card monsterName={monster.name} monsterID={monster.id} />
+                    <Card monster={monster} />
                 ))}
             </div>
         </Fragment>
