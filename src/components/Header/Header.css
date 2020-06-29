@@ -1,0 +1,9 @@
+.headerTitle {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1f;
+}
+
+.header {
+    grid-column-start: 2;
+    justify-content: center;
+}

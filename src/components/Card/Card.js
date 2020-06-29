@@ -6,8 +6,8 @@ const Card = ({ monster }) => {
     return (
         <Fragment>
             <div className="card">
-                <img alt="monster" src={`https://robohash.org/${monster.id}?set=set2`} />
-                <h1>{monster.name}</h1>
+                <img alt="monster" src={`https://robohash.org/${monster.id}?set=set4`} />
+                <h2>{monster.name}</h2>
                 <h2>{monster.id}</h2>
             </div>
         </Fragment>
